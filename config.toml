@@ -1,0 +1,47 @@
+baseURL = "https://p4rseexp.github.io"
+languageCode = "zh-CN"
+title = "p4rseexp's blog"
+theme = "maupassant-hugo"
+
+[author]
+    name = "p4rseexp"
+    homepage = "https://github.com/p4rseexp"
+
+[params]
+    subtitle = "所见无非虚幻迷朦"
+    description = "a simple blog"
+    keywords = "博客"
+
+    #customCSS = ["custom.css"]
+    #customJS = ["app.extra.js"]
+
+    search_provider = "google"
+
+[params.utteranc]
+    enable = true
+    repo = "p4rseexp/blog-comments"
+    issueTerm = "pathname"
+    theme = "github-light"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  
+[[params.links]]
+
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "github"
+
+[[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 3
