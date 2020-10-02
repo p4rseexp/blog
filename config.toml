@@ -15,7 +15,8 @@ theme = "maupassant-hugo"
     #customCSS = ["custom.css"]
     #customJS = ["app.extra.js"]
 
-    search_provider = "google"
+    #search_provider = "google"
+    localSearch = true
 
 [params.utteranc]
     enable = true
