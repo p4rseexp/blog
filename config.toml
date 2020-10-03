@@ -20,7 +20,7 @@ theme = "maupassant-hugo"
 
 [params.utteranc]
     enable = true
-    repo = "p4rseexp/blog-comments"
+    repo = "p4rseexp/p4rseexp.github.io"
     issueTerm = "pathname"
     theme = "github-light"
 
